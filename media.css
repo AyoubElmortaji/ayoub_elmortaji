@@ -1,0 +1,263 @@
+@media (max-width:1023px){
+    body{
+        align-items: center;
+        width:100%;
+    }
+
+    header{
+        background-color:aliceblue;;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 2px;
+        
+        
+    }
+    header .logo{
+        text-decoration: none;
+        color:royalblue;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-right:6px;
+    }
+    .navbar a{
+        text-decoration: none;
+        color:black;
+        font-size: 1.2em;
+        font-weight: 300;
+        padding-left: 2px;
+    }
+    
+    .navbar a:hover{
+        color:crimson;
+    }
+    
+    
+    
+    
+    section{
+        padding: 12px 12px;
+        color:white;
+    }
+    .main{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-color:white;
+    
+    }
+    
+    .main h2{
+        color:chocolate;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    
+    .main h2 span{
+        color:darkcyan;
+        font-size: 1.8em;
+        font-weight: 600;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    .main h3 {
+        color:crimson;
+        font-size: 1.5em;
+        font-weight: 400;
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .main_btn{
+        color:white;
+        background-color:royalblue;
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 500;
+        display: inline-block;
+        padding:0.9375em;
+        border-radius:15px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .main_btn:hover{
+        background-color:darkcyan;
+        transform:scale(1.1);
+        color:white;
+        transition: 0.7s;
+    }
+    
+    .social{
+        color:royalblue;
+        font-size: 2em;
+        padding-right: 35px;
+        padding-top: 10px;
+        text-decoration: none;
+    }
+    
+    .social .fb:hover{
+        
+        transform:scale(1.1);
+        color:darkcyan;
+        transition: 0.5s;
+        
+    }
+    .social .ins:hover{
+        
+        transform:scale(1.1);   
+         color:crimson;
+    
+        transition: 0.3s;
+        
+    }
+    
+    
+    .social .wh:hover{
+        
+        transform:scale(1.1);
+        color:chartreuse;
+        transition: 0.5s;
+        
+    }
+    
+    .social .git:hover{
+        
+        transform:scale(1.1);
+        color:violet;
+        transition: 0.5s;
+        
+    }
+    
+    
+    
+    
+    
+    
+    .cards{
+        background-color: white;
+    }
+    
+    
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        color:chocolate;
+        font-size: 1.8em;
+        font-weight: 800;
+        margin-bottom: 35px;
+    }
+    
+    .content{
+       
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+    .card{
+        background-color: white;
+        width:100%;
+        
+        box-shadow: 0 5px 25px rgb(1 1 1 /17%);
+        margin-top: 25px;
+        border-radius: 15px;
+        padding:17px;
+        border: solid 1.5px chocolate;
+        color:black;
+    }
+    
+    
+    .card:hover{
+        background-color:white;
+        transform:scale(1.1);
+        color:black;
+        transition: 0.7s;
+    }
+    
+    .icon{
+        color:royalblue;
+        font-size: 3em;
+        text-align: center;
+        margin: 5px;
+    }
+    .info{
+        text-align: center;
+    }
+    .info h3{
+        color:royalblue;
+        font-size: 2em;
+        font-weight: 700;
+        margin: 10px;
+    }
+    
+    .project{
+        background-color: white;
+        
+        margin-top: 3.5cm;
+    
+    }
+    
+    .project .content{
+        margin-top: 35px;
+    }
+    
+    .project-card{
+        background-color:white;
+        border: solid 1px chocolate;
+        min-height: 14em;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-top: 25px;
+        transition: 0.7s ease;
+    }
+    
+    .project-card:hover{
+        transform: scale(1.1);
+    }
+    
+    .project-img img{
+        width:100%;
+    }
+    
+    .project-card:hover .project-img{
+        opacity: 0.8;
+    }
+    
+    .project-info{
+        padding: 1em;
+    }
+    
+    .project-categorie{
+        font-size: 0.8em;
+        color:black;
+    }
+    
+    .project-title{
+        justify-content: space-between;
+        display: flex;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 12px;
+        color:crimson;
+    }
+    
+    .more-details{
+        color:darkcyan;
+        text-decoration: none;
+    }
+    span{
+        font-size: x-large;
+        padding: 10px;
+    }
+    
+}
